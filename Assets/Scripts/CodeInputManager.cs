@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class CodeInputManager : MonoBehaviour
 {
     public TMP_InputField inputField;  // Input field for code input
+    public TMP_InputField outputField; // Output field
 
     private string apiKey = "e5e6ec34-6f00-473e-b2fb-4c0782d7ffcf";
     private string apiUrl = "https://rextester.com/rundotnet/api";
@@ -62,6 +63,7 @@ public class CodeInputManager : MonoBehaviour
             cOutput = JsonUtility.FromJson<CompilerOutput>(jsonOutput);
 
             output = cOutput.Result;
+            outputField.text = output;
         }
         else
         {
