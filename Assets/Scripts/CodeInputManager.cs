@@ -7,6 +7,7 @@ public class CodeInputManager : MonoBehaviour
 {
     public TMP_InputField inputField;  // Input field for code input
     public TMP_InputField outputField; // Output field
+    public TMP_InputField log;         // Log for error messages
 
     private string apiKey = "e5e6ec34-6f00-473e-b2fb-4c0782d7ffcf";
     private string apiUrl = "https://rextester.com/rundotnet/api";
@@ -39,9 +40,8 @@ public class CodeInputManager : MonoBehaviour
     // Coroutine to send C code to RexTester API
     IEnumerator SendCodeToAPI(string code)
     {
-        // Properly escape double quotes in the JSON data
+        // Escape double quotes in the JSON data
         string jsonData = "{\"LanguageChoice\":\"7\",\"Program\":\"" + EscapeJsonString(code) + "\",\"Input\":\"\",\"CompilerArgs\":\"source_file.cpp -o a.out\",\"ApiKey\":\"" + apiKey + "\"}";
-
 
         // Convert jsonData string into a byte array
         byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(jsonData);
@@ -62,8 +62,21 @@ public class CodeInputManager : MonoBehaviour
             CompilerOutput cOutput = new CompilerOutput();
             cOutput = JsonUtility.FromJson<CompilerOutput>(jsonOutput);
 
-            output = cOutput.Result;
-            outputField.text = output;
+            //Debug.Log(cOutput.Result);
+            //Debug.Log(cOutput.Errors);
+
+            if (cOutput.Errors == "")
+            {
+                //Debug.Log("jalans");
+
+                output = cOutput.Result;
+                outputField.text = output;
+                log.text = "Code executed successfully with no errors!";
+            
+            } else
+            {
+                log.text = cOutput.Errors;
+            }
         }
         else
         {
