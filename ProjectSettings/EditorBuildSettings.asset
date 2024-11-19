@@ -15,7 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/C Programming/C Programming - Choose Chapter.unity
     guid: 3101f5d2892ffe94c989876fb27bbeb9
   - enabled: 1
-    path: Assets/Scenes/C Programming/C Programming - Basics - Choose Level.unity
+    path: Assets/Scenes/C Programming/Level/1. Basics/C Programming - Basics - Choose
+      Level.unity
     guid: 1ce1720438ed49c4580b88ef9c6f17fa
   - enabled: 1
     path: Assets/Scenes/Gamplay Scenes Template/CodeQuestions Template.unity
