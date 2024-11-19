@@ -19,8 +19,221 @@ EditorBuildSettings:
       Level.unity
     guid: 1ce1720438ed49c4580b88ef9c6f17fa
   - enabled: 1
-    path: Assets/Scenes/Gamplay Scenes Template/CodeQuestions Template.unity
-    guid: 5105ef806a1fd0540b33ade600619aa3
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 1/C Programming - Basics
+      - Level 1.unity
+    guid: 574c1e58529dbfb48b2fb3de82204416
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 2/C Programming - Basics
+      - Level 2.unity
+    guid: 890b87bd15ab5cf4688f53a2c2221dfb
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 2/FillInTheBlank - Basics
+      - Level 2.unity
+    guid: 186f3b39b173f28489e5c05d48408038
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 2/PlugNPut - Basics -
+      Level 2.unity
+    guid: 2ff87e9c266529542ae8465f7635faba
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 3/C Programming - Basics
+      - Level 3.unity
+    guid: d23a54ca72ad05f48be99fccdfbadf93
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 3/FillInTheBlank - Basics
+      - Level 3.unity
+    guid: 55309565fc556f54285ba7e6ee699545
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 3/PlugNPut - Basics -
+      Level 3.unity
+    guid: 455585b2d40b6cf498d75fae3eed0624
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 4/C Programming - Basics
+      - Level 4.unity
+    guid: 4dff94ff4c328cb4ebc1fe992f227099
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 4/FillInTheBlank - Basics
+      - Level 4.unity
+    guid: 8a0453e73b5a1e247a2a00c5b32415a1
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 4/PlugNPut - Basics -
+      Level 4.unity
+    guid: e0b9537e0d2977b4eb8a9b2393ac7a40
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 5/C Programming - Basics
+      - Level 5.unity
+    guid: 0ec6711859abfd14aab27132c31b2c23
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 5/FillInTheBlank - Basics
+      - Level 5.unity
+    guid: 0e3fb88484bdeed4d94cc1f2cbe6c36f
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/1. Basics/Level 5/PlugNPut - Basics -
+      Level 5.unity
+    guid: e1481f37c343a7d44a3a93ca32379eab
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/C Programming
+      - Arithmetic Operations - Choose Level.unity
+    guid: d6192dc7d6aeda542b4beae6d2ab5b22
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 1/C Programming
+      - Arithmetic Operations - Level 1.unity
+    guid: c01b131f390af5f429a80050a15462b6
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 1/FillInTheBlank
+      - Arithmetic Operations - Level 1.unity
+    guid: bf818e5cabdff91418687d004f5da635
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 1/PlugNPut
+      - Arithmetic Operations - Level 1.unity
+    guid: 14405118db5d3bf4faf2a2ee25404436
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 2/C Programming
+      - Arithmetic Operations - Level 2.unity
+    guid: c17bcaba06285d1498edf373b15704ce
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 2/FillInTheBlank
+      - Arithmetic Operations - Level 2.unity
+    guid: f51094af8fae7ce48ae9d5a4c461f535
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 2/PlugNPut
+      - Arithmetic Operations - Level 2.unity
+    guid: 9103a400c01417c4ab81eea22f974533
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 3/C Programming
+      - Arithmetic Operations - Level 3.unity
+    guid: 8eeb81979e37e574cbdd4403c28c4783
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 3/FillInTheBlank
+      - Arithmetic Operations - Level 3.unity
+    guid: c9b84a8cf13a09b42bb9e2f23c1ab400
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 3/PlugNPut
+      - Arithmetic Operations - Level 3.unity
+    guid: d14f7d68b2953e0499557378e5c12aec
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 4/C Programming
+      - Arithmetic Operations - Level 4.unity
+    guid: f414601739b1bd540b830ae9517aa12f
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 4/FillInTheBlank
+      - Arithmetic Operations - Level 4.unity
+    guid: 87f96781f8ac7984d9705e4bb0c5b68a
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 4/PlugNPut
+      - Arithmetic Operations - Level 4.unity
+    guid: 57a110b5923f4f2408030a0b34ae2177
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 5/C Programming
+      - Arithmetic Operations - Level 5.unity
+    guid: 1fe20f6d08be7b44da8da6488e7cca04
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 5/FillInTheBlank
+      - Arithmetic Operations - Level 5.unity
+    guid: bfdf445d152b40b40abacfb745de7dde
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 5/PlugNPut
+      - Arithmetic Operations - Level 5.unity
+    guid: f8e950deffdb9aa46bc12c63ab8b667e
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 6/C Programming
+      - Arithmetic Operations - Level 6.unity
+    guid: 37100c77982433b4e89443c9f05478f6
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 6/FillInTheBlank
+      - Arithmetic Operations - Level 6.unity
+    guid: e769d1a605347cf419a62566c30b2115
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/2. Arithmetic Operations/Level 6/PlugNPut
+      - Arithmetic Operations - Level 6.unity
+    guid: 096cfc5a79b6d464389ec3a49e672607
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/C Programming - Conditions
+      - Choose Level.unity
+    guid: 128896f3b20ab164aac04f039bdf0738
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 1/C Programming -
+      Conditions - Level 1.unity
+    guid: eabde9d80d5680244be443e846c14b65
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 1/FillInTheBlank
+      - Conditions - Level 1.unity
+    guid: e148302dae7decc499eaf48fdf7453fe
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 1/PlugNPut - Conditions
+      - Level 1.unity
+    guid: fae24e1baf0f04d4fa99dbde3ebcd476
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 2/C Programming -
+      Conditions - Level 2.unity
+    guid: 5098d3bf7bc81d248814d44477132705
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 2/FillInTheBlank
+      - Conditions - Level 2.unity
+    guid: 937271accc04f3740b662a728c46585a
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 2/PlugNPut - Conditions
+      - Level 2.unity
+    guid: d8aee3eb5137ac849940d322217ed6c1
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 3/C Programming -
+      Conditions - Level 3.unity
+    guid: 84b8890a313020d4dbdb03acfde42328
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 3/FillInTheBlank
+      - Conditions - Level 3.unity
+    guid: 52306ae2f10c16e4081e087975b4a17d
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 3/PlugNPut - Conditions
+      - Level 3.unity
+    guid: f9c091cf10d3d654aa53d948c67fe353
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 4/C Programming -
+      Conditions - Level 4.unity
+    guid: d6984473597203745beac4aefa02060f
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 4/FillInTheBlank
+      - Conditions - Level 4.unity
+    guid: e021926538f7c4c43b4b36ae63d1d390
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 4/PlugNPut - Conditions
+      - Level 4.unity
+    guid: a55b0ae6050f11b469e4ae4003cbb7f1
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 5/C Programming -
+      Conditions - Level 5.unity
+    guid: b9f034d8fc109a54bbcfff8d4ef03855
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 5/FillInTheBlank
+      - Conditions - Level 5.unity
+    guid: 4c38478fd5338a44fb98dbf8ec3220b5
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 5/PlugNPut - Conditions
+      - Level 5.unity
+    guid: a07c386d2324fdc448182e8e41453be9
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 6/C Programming -
+      Conditions - Level 6.unity
+    guid: 2f51c89d56edf8b4ab9bc708b70df48b
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 6/FillInTheBlank
+      - Conditions - Level 6.unity
+    guid: bf5e306bf87c89941869177e5a1730b3
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 6/PlugNPut - Conditions
+      - Level 6.unity
+    guid: 4ac5a21fa6b964045901141ee2a308a2
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 7/C Programming -
+      Conditions - Level 7.unity
+    guid: a3007d87511d25d4ba8d6d474ca6cbbd
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 7/FillInTheBlank
+      - Conditions - Level 7.unity
+    guid: d15a0c5a8fd8dac48965ae9d45f8b81a
+  - enabled: 1
+    path: Assets/Scenes/C Programming/Level/3. Conditions/Level 7/PlugNPut - Conditions
+      - Level 7.unity
+    guid: 8d5ff499fbf310f4ab62ee1c000cccf5
   - enabled: 1
     path: Assets/Scenes/Gamplay Scenes Template/SandBox.unity
     guid: 7eda1fcfc01d9ee40b69ecc1a374ccf8
