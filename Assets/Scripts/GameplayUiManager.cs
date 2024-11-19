@@ -6,17 +6,7 @@ public class GameplayUiManager : MonoBehaviour
 {
     public panels[] UIPanels;
 
-    //public void submitCheckCode()
-    //{
-
-    //}
-
     //public void submitCheckMultiple()
-    //{
-
-    //}
-
-    //public void submitCheckBlankFill()
     //{
 
     //}

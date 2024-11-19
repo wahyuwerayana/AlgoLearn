@@ -7,7 +7,8 @@ public class SubmitCheckCode : MonoBehaviour
 {
     public CodeInputManager cim;
     public RectTransform errorNotif;
-    public float notifDist;
+    public GameplayUiManager gum;
+    private float notifDist = 150;
     [SerializeField] private bool isRight;
     private float orNotifPos;
 
@@ -18,6 +19,7 @@ public class SubmitCheckCode : MonoBehaviour
     void Start()
     {
         cim = GetComponentInChildren<CodeInputManager>();
+        gum = GetComponent<GameplayUiManager>();
         errorNotif = GameObject.FindGameObjectWithTag("WA Notif").GetComponent<RectTransform>();
 
         orNotifPos = errorNotif.localPosition.y;
@@ -25,6 +27,8 @@ public class SubmitCheckCode : MonoBehaviour
 
     public bool checkCode()
     {
+        Debug.Log(cim);
+
         if (cim.output == answer)
             return true;
         else
@@ -42,7 +46,6 @@ public class SubmitCheckCode : MonoBehaviour
             if (!cim.inputField.text.Contains("for") && !cim.inputField.text.Contains("while"))
             {
                 //Debug.Log("jalan atas");
-
                 errorNotif = GameObject.FindGameObjectWithTag("WA Notif Loop").GetComponent<RectTransform>();
                 errorNotif.DOLocalMoveY(orNotifPos - notifDist, 0.3f);
                 Invoke(nameof(moveNotifBack), 1f);
@@ -50,16 +53,23 @@ public class SubmitCheckCode : MonoBehaviour
             } else
             {
                 // buka pop up well done
+                gum.enablePanel("Well Done Panel");
+                Time.timeScale = 0;
             }
         
+        } else if (cim.loopValidation == false && isRight)
+        {
+            // buka pop up well done
+            gum.enablePanel("Well Done Panel");
+            Time.timeScale = 0;
+
         } else if (!isRight)
         {
             //Debug.Log("jalan bawah");
-
             errorNotif = GameObject.FindGameObjectWithTag("WA Notif").GetComponent<RectTransform>();
             errorNotif.DOLocalMoveY(orNotifPos - notifDist, 0.3f);
             Invoke(nameof(moveNotifBack), 1f);
-        }    
+        }
     }
 
     public void moveNotifBack()

@@ -22,7 +22,7 @@ public class CodeInputManager : MonoBehaviour
     void Start()
     {
         inputField = GetComponent<TMP_InputField>();
-        inputField.text = "#include <stdio.h>\r\n\r\nint main() {\r\n\r\n\tprintf(\"Hello World\");\r\n\r\n\treturn 0;\r\n}";
+        //inputField.text = "#include <stdio.h>\r\n\r\nint main() {\r\n\r\n\tprintf(\"Hello World\");\r\n\r\n\treturn 0;\r\n}";
     }
 
     // Update is called once per frame

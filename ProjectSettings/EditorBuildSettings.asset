@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/C Programming/C Programming - Choose Level.unity
     guid: 1ce1720438ed49c4580b88ef9c6f17fa
   - enabled: 1
-    path: Assets/Scenes/Test API.unity
+    path: Assets/Scenes/Gamplay Scenes Template/CodeQuestions Template.unity
     guid: 5105ef806a1fd0540b33ade600619aa3
   m_configObjects: {}
