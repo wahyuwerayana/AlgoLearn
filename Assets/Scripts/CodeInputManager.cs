@@ -8,6 +8,7 @@ public class CodeInputManager : MonoBehaviour
     public TMP_InputField inputField;  // Input field for code input
     public TMP_InputField outputField; // Output field
     public TMP_InputField log;         // Log for error messages
+    public bool loopValidation;
 
     private string apiKey = "e5e6ec34-6f00-473e-b2fb-4c0782d7ffcf";
     private string apiUrl = "https://rextester.com/rundotnet/api";
@@ -28,6 +29,8 @@ public class CodeInputManager : MonoBehaviour
     void Update()
     {
         input = inputField.text;
+
+
     }
 
     // Method to be called when the user clicks the "Compile" button
@@ -74,9 +77,7 @@ public class CodeInputManager : MonoBehaviour
                 log.text = "Code executed successfully with no errors!";
             
             } else
-            {
                 log.text = cOutput.Errors;
-            }
         }
         else
         {
