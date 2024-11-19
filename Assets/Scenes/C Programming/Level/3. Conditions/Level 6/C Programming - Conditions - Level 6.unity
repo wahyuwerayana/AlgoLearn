@@ -1115,7 +1115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &852104436
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1542,10 +1542,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "They are also known as Decision-Making Statements.\n\nThey are used to
-    evaluate one or more conditions and make the decision whether to execute a set
-    of statements or not. \n\nThese decision-making statements in programming languages
-    decide the direction of the flow of program execution."
+  m_text: "To understand further about this concept, let's just say there's an \nint
+    x = 5; \nif(x % 2 == 0) printf(\"Cheese\"); \nelse if(x % 5 == 5) printf(\"Cake\");
+    \nelse if(x == 5) printf(\"Brownies\"); \n\nThis code will have the output of
+    Cake since even though x is indeed 5 and Brownies should've been printed, the
+    first else if condition had been fulfilled and it will skip over all the next
+    else if statements beneath, which also includes the else statement at the bottom."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2aeee6000ca6d415eb8becac4a681146, type: 2}
   m_sharedMaterial: {fileID: 523625546745272025, guid: 2aeee6000ca6d415eb8becac4a681146, type: 2}
@@ -1572,7 +1574,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 65.65
   m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2091,7 +2093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1970617039
 RectTransform:
   m_ObjectHideFlags: 0
